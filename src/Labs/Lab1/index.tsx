@@ -257,7 +257,7 @@ export default function Lab1() {
               placeholder="jdoe@somewhere.com"
               id="wd-text-fields-email"/><br/>
 
-        <label htmlFor="wd-text-fields-salary-start"> Starting salary:</label>
+        <label htmlFor="wd-text-fields-salary-start"> Starting salary: </label>
         <input type="number"
               value="100000"
               placeholder="1000"
@@ -265,7 +265,8 @@ export default function Lab1() {
 
         <label htmlFor="wd-text-fields-rating"> Rating: </label>
         <input type="range"
-              value="4"
+              defaultValue="4"
+              min="1"
               max="5"
               placeholder="Doe"
               id="wd-text-fields-rating"/><br/>
