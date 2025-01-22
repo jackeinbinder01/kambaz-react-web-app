@@ -29,8 +29,8 @@ export default function Dashboard() {
                 <Link to="/Kambaz/Courses/3234/Home">
                     <img src="/images/3234.webp" width={200}/>
                     <div>
-                        <h5>CS3234 Advanced Typing Theory</h5>
-                        <p className="wd-dashboard-course-title">Strategies to improve WPM</p>
+                        <h5>CS3234 Typing Theory</h5>
+                        <p className="wd-dashboard-course-title">Increase your WPM</p>
                         <button>Go</button>
                     </div>
                 </Link>
@@ -79,7 +79,7 @@ export default function Dashboard() {
                 <Link to="/Kambaz/Courses/8234/Home">
                     <img src="/images/8234.jpg" width={200}/>
                     <div>
-                        <h5>CS8234 Advanced RAM Optimization</h5>
+                        <h5>CS8234 Advanced Topics in RAM Optimization</h5>
                         <p className="wd-dashboard-course-title">Strategies to safely download more RAM</p>
                         <button>Go</button>
                     </div>
