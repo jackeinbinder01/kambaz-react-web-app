@@ -1,4 +1,4 @@
-import { FormSelect, Form, FormGroup, FormLabel, InputGroup, FormControl, Row, Col } from "react-bootstrap";
+import { FormSelect, Form, FormGroup, FormLabel, InputGroup, FormControl, Row, Col, Button } from "react-bootstrap";
 import FormRange from "react-bootstrap/esm/FormRange";
 
 export default function BootstrapForms() {
@@ -90,6 +90,51 @@ export default function BootstrapForms() {
                         <Form.Control as="textarea" style={{height: "100px"}}/>
                     </Col>
                 </Form.Group>
+            </div>
+            <div id="wd-responsive-forms-2">
+                <h3>
+                    Responsive forms
+                </h3>
+                <Form>
+                    <Form.Group as={Row} className="mb-3">
+                        <Form.Label column sm={2}>
+                            Email
+                        </Form.Label>
+                        <Col sm={10}>
+                            <Form.Control type="email" placeholder="Email"/>
+                        </Col>
+                        <Form.Label column sm={2}>
+                            Password
+                        </Form.Label>
+                        <Col sm={10}>
+                            <Form.Control type="password" placeholder="Password"/>
+                        </Col>
+                    </Form.Group>
+                    <fieldset>
+                        <Form.Group as={Row} className="mb-3">
+                            <Form.Label as="legend" column sm={2}>
+                                Radios
+                            </Form.Label>
+                            <Col sm={10}>
+                                <Form.Check type="radio" label="first radio" checked name="formHorizontalRadios"/>
+                                <Form.Check type="radio" label="second radio" checked name="formHorizontalRadios"/>
+                                <Form.Check type="radio" label="third radio" checked name="formHorizontalRadios"/>
+                            </Col>
+                        </Form.Group>
+                    </fieldset>
+                    <Form.Group as={Row} className="mb-3">
+                        <Col sm={{ span: 10, offset: 2 }}>
+                            <Form.Check label="Remember me"/>
+                        </Col>
+                    </Form.Group>
+                    <Form.Group as={Row} className="mb-3">
+                        <Col>
+                            <Button type="submit">
+                                Sign in
+                            </Button>
+                        </Col>
+                    </Form.Group>
+                </Form>
             </div>
         </div>
     );
