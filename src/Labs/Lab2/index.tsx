@@ -13,6 +13,11 @@ import Float from "./Float";
 import GridLayout from "./GridLayout";
 import Flex from "./Flex";
 import ReactIconsSampler from "./ReactIcons";
+import BootstrapGrids from "./BootstrapGrids";
+import ScreenSizeLabel from "./ScreenSizeLabel";
+import BootstrapTables from "./BootstrapTables";
+import BootstrapLists from "./BootstrapLists";
+import BootstrapForms from "./BootstrapForms";
 
 export default function Lab2() {
     return (
@@ -103,5 +108,21 @@ export default function Lab2() {
         <div>
           <ReactIconsSampler/>
         </div>
+        <div>
+          <BootstrapGrids/>
+        </div>
+        <div>
+          <ScreenSizeLabel/>
+        </div>
+        <div>
+          <BootstrapTables/>
+        </div>
+        <div>
+          <BootstrapLists/>
+        </div>
+        <div>
+          <BootstrapForms/>
+        </div>
       </div>
-  );}
+  );
+}
