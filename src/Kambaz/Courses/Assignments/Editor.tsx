@@ -1,7 +1,6 @@
-import { Form, FormControl, FormGroup, FormSelect, InputGroup, Row, Col, Table, FormCheck, Button } from "react-bootstrap";
+import { Form, FormControl, FormGroup, FormSelect, InputGroup, Row, Col, Table, Button } from "react-bootstrap";
 import { BiCalendar } from "react-icons/bi";
-import { CgClose, CgCross } from "react-icons/cg";
-import { ImCross } from "react-icons/im";
+import { CgClose } from "react-icons/cg";
 
 export default function AssignmentEditor() {
     return (
@@ -66,12 +65,12 @@ export default function AssignmentEditor() {
                     </tr>
                     <tr>
                         <td className="text-end align-middle">
-                            <label htmlFor="wd-group">
+                            <label htmlFor="wd-display-grade-as">
                                 Display Grade as
                             </label>
                         </td>
                         <td>
-                            <FormSelect id="wd-group">
+                            <FormSelect id="wd-display-grade-as">
                                 <option>Percentage</option>
 
                             </FormSelect>
@@ -79,13 +78,13 @@ export default function AssignmentEditor() {
                     </tr>
                     <tr>
                         <td className="text-end">
-                            <label htmlFor="wd-group">
+                            <label htmlFor="wd-submission-type">
                                 Submission Type
                             </label>
                         </td>
                         <td>
                             <div className="border p-3 rounded-2">
-                                <FormSelect id="wd-display-grade-as">
+                                <FormSelect id="wd-submission-type">
                                     <option>Online</option>
                                 </FormSelect>
                                 <p className="mt-3">
@@ -103,7 +102,7 @@ export default function AssignmentEditor() {
                     </tr>
                     <tr>
                         <td className="text-end">
-                            <label htmlFor="wd-group">
+                            <label htmlFor="wd-assign">
                                 Assign
                             </label>
                         </td>
