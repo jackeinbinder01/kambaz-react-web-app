@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Form, FormSelect } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 
 export default function Profile() {
     return (
@@ -17,7 +17,7 @@ export default function Profile() {
             placeholder="Date of Birth" className="mb-2"/>
             <Form.Control id="wd-email" defaultValue="alice@wonderland.com" type="email"
             className="mb-2"/>
-             <FormSelect className="mb-2">
+             <select className="mb-2 form-control">
                 <option selected value="USER">
                     User
                 </option>
@@ -30,7 +30,7 @@ export default function Profile() {
                 <option value="STUDENT">
                     Student
                 </option>
-            </FormSelect>
+            </select>
             <Link to="/Kambaz/Account/Signin" className="btn btn-danger w-100 mb-2">
                 Sign out
             </Link>

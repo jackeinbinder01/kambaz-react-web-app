@@ -18,7 +18,7 @@ export default function BootstrapNavigation() {
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="#/Labs/Lab2/Link1">
+                    <Nav.Link href="#/Labs/Lab2/Link2">
                         Link 2
                     </Nav.Link>
                 </Nav.Item>
@@ -28,7 +28,7 @@ export default function BootstrapNavigation() {
                     </Nav.Link>
                 </Nav.Item>
             </Nav>
-            <div id="wd-css-navigating-with-cards">
+            <div id="wd-css-navigating-with-cards" className="mt-3 mb-3">
                 <h2>
                     Cards
                 </h2>

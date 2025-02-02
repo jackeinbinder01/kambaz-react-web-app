@@ -1,8 +1,9 @@
 import { Container } from "react-bootstrap"
+import "./styles.css"
 
 export default function Lab1() {
   return (
-    <Container id="wd-lab1">
+    <div id="wd-lab1">
       <h2>Lab 1</h2>
       <h3>HTML Examples</h3>
       <div id="wd-h-tag">
@@ -288,7 +289,13 @@ export default function Lab1() {
           <a href="https://github.com/jackeinbinder01/kambaz-react-web-app" id="wd-github">click here</a>
           <br/>
       </div>
-    </Container>
+      <div>
+        <input type="radio" name="color" />YELLOW
+      </div>
+
+      <h1 id="asd" className="zxc">I'm white on red</h1>
+
+    </div>
   );
 }
 

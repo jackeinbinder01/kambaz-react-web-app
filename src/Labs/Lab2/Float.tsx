@@ -86,6 +86,7 @@ export default function Float() {
             sit amet commodo. Integer urna nibh, blandit non ullamcorper a, fermentum in risus. 
             Vestibulum at lectus eget sem blandit hendrerit finibus vel tellus.
             <div>
+                <h2>Float</h2>
                 <div className="wd-float-left
                                 wd-dimension-portrait
                                 wd-bg-color-yellow">
